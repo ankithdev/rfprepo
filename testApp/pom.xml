@@ -36,7 +36,7 @@
                <configuration>
                    <descriptor>src/assembly/bin.xml</descriptor>
                    <finalName>testApp.zip</finalName>
-                   <outputDirectory>target/classes</outputDirectory>
+                   <outputDirectory>target</outputDirectory>
                </configuration>
                <executions>
                    <execution>
