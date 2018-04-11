@@ -35,8 +35,8 @@
 			   
                <configuration>
                    <descriptor>src/assembly/bin.xml</descriptor>
-                   <finalName>testApp.zip</finalName>
-                   <outputDirectory>target</outputDirectory>
+                   <finalName>testApp</finalName>
+                   <outputDirectory>${project.basedir}/target</outputDirectory>
                </configuration>
                <executions>
                    <execution>
