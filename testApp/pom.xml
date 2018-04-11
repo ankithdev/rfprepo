@@ -32,7 +32,7 @@
  <plugin>
                <groupId>org.apache.maven.plugins</groupId>
                <artifactId>maven-assembly-plugin</artifactId>
-			   <id>assembly</id>
+			   
                <configuration>
                    <descriptor>src/assembly/bin.xml</descriptor>
                    <finalName>testApp.zip</finalName>
@@ -41,9 +41,7 @@
                <executions>
                    <execution>
                        <phase>prepare-package</phase>
-                       <goals>
-                           <goal>single</goal>
-                       </goals>
+                    
                    </execution>
                </executions>
            </plugin>
