@@ -5,6 +5,7 @@ xsi:schemaLocation="http://maven.apache.org/plugins/maven-assembly-plugin/assemb
    <formats>
        <format>zip</format>
    </formats>
+   <id>assembly</id>
    <includeBaseDirectory>false</includeBaseDirectory>
    <fileSets>
        <fileSet>
