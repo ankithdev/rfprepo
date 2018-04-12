@@ -9,7 +9,8 @@
 	<packaging>jar</packaging>
 
 	<name>testAppProject</name>
-
+	<localRepository>/home/techsophy/.m2/repository</localRepository>
+      	<offline>false</offline>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
