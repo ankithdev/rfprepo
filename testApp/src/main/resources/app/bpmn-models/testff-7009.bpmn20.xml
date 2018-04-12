@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:activiti="http://activiti.org/bpmn" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC" xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" typeLanguage="http://www.w3.org/2001/XMLSchema" expressionLanguage="http://www.w3.org/1999/XPath" targetNamespace="http://www.activiti.org/processdef" xmlns:modeler="http://activiti.com/modeler" modeler:version="1.0en" modeler:exportDateTime="20180412112137678" modeler:modelId="7009" modeler:modelVersion="9" modeler:modelLastUpdated="1523510091507">
+  <process id="testff" name="testff" isExecutable="true">
+    <startEvent id="startEvent1">
+      <extensionElements>
+        <modeler:editor-resource-id><![CDATA[startEvent1]]></modeler:editor-resource-id>
+      </extensionElements>
+    </startEvent>
+    <userTask id="sid-55B1E1FE-5D55-48CA-9D0D-D52C53AC24C7" activiti:assignee="$INITIATOR" activiti:formKey="7008">
+      <extensionElements>
+        <modeler:allow-send-email><![CDATA[true]]></modeler:allow-send-email>
+        <modeler:form-reference-id><![CDATA[7008]]></modeler:form-reference-id>
+        <modeler:form-reference-name><![CDATA[TestForm]]></modeler:form-reference-name>
+        <modeler:activiti-idm-initiator><![CDATA[true]]></modeler:activiti-idm-initiator>
+        <modeler:editor-resource-id><![CDATA[sid-55B1E1FE-5D55-48CA-9D0D-D52C53AC24C7]]></modeler:editor-resource-id>
+      </extensionElements>
+    </userTask>
+    <sequenceFlow id="sid-8FEDD999-A10C-47E5-8D95-0153DF42AB48" sourceRef="startEvent1" targetRef="sid-55B1E1FE-5D55-48CA-9D0D-D52C53AC24C7">
+      <extensionElements>
+        <modeler:editor-resource-id><![CDATA[sid-8FEDD999-A10C-47E5-8D95-0153DF42AB48]]></modeler:editor-resource-id>
+      </extensionElements>
+    </sequenceFlow>
+    <endEvent id="sid-7DEB0B1E-0FD2-4022-912F-CBA84A4977D6">
+      <extensionElements>
+        <modeler:editor-resource-id><![CDATA[sid-7DEB0B1E-0FD2-4022-912F-CBA84A4977D6]]></modeler:editor-resource-id>
+      </extensionElements>
+    </endEvent>
+    <sequenceFlow id="sid-5DFA2660-FDD7-4C0F-BF53-779DB8FD22A0" sourceRef="sid-55B1E1FE-5D55-48CA-9D0D-D52C53AC24C7" targetRef="sid-7DEB0B1E-0FD2-4022-912F-CBA84A4977D6">
+      <extensionElements>
+        <modeler:editor-resource-id><![CDATA[sid-5DFA2660-FDD7-4C0F-BF53-779DB8FD22A0]]></modeler:editor-resource-id>
+      </extensionElements>
+    </sequenceFlow>
+  </process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_testff">
+    <bpmndi:BPMNPlane bpmnElement="testff" id="BPMNPlane_testff">
+      <bpmndi:BPMNShape bpmnElement="startEvent1" id="BPMNShape_startEvent1">
+        <omgdc:Bounds height="30.0" width="30.0" x="90.0" y="150.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="sid-55B1E1FE-5D55-48CA-9D0D-D52C53AC24C7" id="BPMNShape_sid-55B1E1FE-5D55-48CA-9D0D-D52C53AC24C7">
+        <omgdc:Bounds height="80.0" width="100.0" x="165.0" y="120.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="sid-7DEB0B1E-0FD2-4022-912F-CBA84A4977D6" id="BPMNShape_sid-7DEB0B1E-0FD2-4022-912F-CBA84A4977D6">
+        <omgdc:Bounds height="28.0" width="28.0" x="310.0" y="151.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge bpmnElement="sid-5DFA2660-FDD7-4C0F-BF53-779DB8FD22A0" id="BPMNEdge_sid-5DFA2660-FDD7-4C0F-BF53-779DB8FD22A0">
+        <omgdi:waypoint x="265.0" y="160.0"/>
+        <omgdi:waypoint x="287.5" y="160.0"/>
+        <omgdi:waypoint x="287.5" y="165.0"/>
+        <omgdi:waypoint x="310.0" y="165.0"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="sid-8FEDD999-A10C-47E5-8D95-0153DF42AB48" id="BPMNEdge_sid-8FEDD999-A10C-47E5-8D95-0153DF42AB48">
+        <omgdi:waypoint x="120.0" y="165.0"/>
+        <omgdi:waypoint x="142.5" y="165.0"/>
+        <omgdi:waypoint x="142.5" y="160.0"/>
+        <omgdi:waypoint x="165.0" y="160.0"/>
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</definitions>
